@@ -13,6 +13,12 @@ height:100%
     font-size:140%;
     font-weight:500;
 }
+#home:hover,#sn:hover,#contact:hover,#vids:hover,#art:hover{
+   opacity: 0.4;
+   transform:scale(1.2,1.2);
+   perspective: 100px;
+    
+}
 #nt{
     width:40%;
     margin-left:25%;
@@ -22,6 +28,10 @@ height:100%
     border-color:aqua;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.37);
 }
+#nt:hover{
+    opacity:0.6;
+    border-color:white;
+}
 #ntimgme{
     width:40%;
     height:10%;
@@ -30,13 +40,9 @@ height:100%
     border-radius:10%;
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.37);
 }
-.links a:hover{
-    background-color:dodgerblue;
-    color: black;
-}
-.links a:active{
-    background-color: #4CAF50;
-    color: white;
+#ntimgme:hover{
+    opacity:0.7;
+    border-color:black;
 }
 #email{
     font-family:sans-serif;
