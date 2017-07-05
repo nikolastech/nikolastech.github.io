@@ -273,6 +273,12 @@ input[type=submit]:hover {
     margin-bottom:5%;
     box-shadow:2px 2px 10px black;
 }
+#miclumia550 #bluedio{
+    margin-top:5%;
+    margin-bottom:5%;
+    text-align:center;
+    width:25%;
+}
 body{
     background-blend-mode:lighten;
     background-repeat:no-repeat;
