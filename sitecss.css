@@ -34,7 +34,9 @@ height:100%
     
 }
 #jwplayer{
-    margin:5% 0% 5% 25%;
+    margin:0 auto;
+    border:medium outset white;
+    border-radius:10px;
 }
 #bldrvwtitleofbox{
     font-family:'Open Sans';
