@@ -19,9 +19,10 @@ height:100%
     border-style:inset;
     border-width: medium;
     width:80%;
-    height:25%;
+    height:10%;
     padding-left:10px;
     margin-left:10%;
+    margin-top:10%;
     background-image:linear-gradient(#a09e9a,#f2f0ed);
     font-family: 'Exo 2', sans-serif;
     box-shadow:2px 2px 7px black;
@@ -140,7 +141,7 @@ height:100%
 }
 #jwplayer{
     text-align:center;
-    margin:5% 0% 5% 23%;
+    margin:5% 0% 5% 13%;
     border:medium outset white;
     border-radius:10px;
 }
@@ -179,7 +180,7 @@ ul {
     color:white;
     text-align:center;
     margin-bottom:1%;
-    font-size:150%;
+
 }
 bo/* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
