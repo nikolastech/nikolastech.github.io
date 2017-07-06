@@ -13,6 +13,50 @@ height:100%
     font-size:370%;
     font-weight:500;
 }
+/* Bluedio Article */
+.bldrvwbox{
+    position:relative;
+    border-style:inset;
+    border-width: medium;
+    width:80%;
+    height:25%;
+    padding-left:10px;
+    margin-left:10%;
+    background-image:linear-gradient(#a09e9a,#f2f0ed);
+    font-family: 'Exo 2', sans-serif;
+    box-shadow:2px 2px 7px black;
+    
+}
+#bldrvwtitleofbox{
+    font-family:'Open Sans';
+    position:relative;
+    bottom:6.5em;
+    left:255px;
+    text-decoration: none;
+    color:black;
+    border-style:dotted;
+    border-width:0px;
+    width:30%;
+
+}
+
+#subtitleofbldbox{
+    position:relative;
+    bottom:7.5em;
+    left:255px;
+    text-decoration: none;
+    color:black;
+    border-style:dotted;
+    border-width:0px;
+    width:50%;
+}
+#bldimgnew{
+    height:65%;
+    width:18%;
+    margin-top:3%;
+    margin-left:4%;
+}
+
 #nt{
     width:40%;
     margin-left:25%;
@@ -21,6 +65,37 @@ height:100%
     border-radius:50%;
     border-color:aqua;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.37);
+}
+/* bldartcl */
+#bldimgonartcl{
+    width:25%;
+    position:relative;
+    left:35%;
+    border: medium inset skyblue;
+}
+#bldimgonartcl:hover{
+    opacity:0.6;
+}
+#titleartclofbldrvw{
+     font-family: 'Baloo Bhaina', cursive;
+    position:relative;
+    left:25%;
+    width:50%;
+    color:white;
+}
+.bldrvwartclparagraphs{
+    width:50%;
+    position:relative;
+    left:25%;
+    font-family: 'Exo 2', sans-serif;
+    color:white;
+}
+.bldrvwartclparagraphs a{
+    text-decoration:none;
+    color:skyblue;
+}
+.bldrvwartclparagraphs a:hover{
+   color:red;
 }
 #ntimgme{
     width:40%;
