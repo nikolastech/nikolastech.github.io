@@ -68,7 +68,13 @@ height:100%
     margin-top:3%;
     margin-left:4%;
 }
-
+#mountartclttlrevw{
+     font-family: 'Baloo Bhaina', cursive;
+    position:relative;
+    left:30%;
+    width:50%;
+    color:white;
+}
 #nt{
     width:40%;
     margin-left:25%;
