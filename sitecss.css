@@ -91,7 +91,11 @@ height:100%
     left:35%;
     border: medium inset skyblue;
 }
-
+#titleartclofbldrvw {font-family: 'Baloo Bhaina', cursive;
+    position:relative;
+    left:25%;
+    width:50%;
+color:white;}
 #bldimgonartcl{
     width:25%;
     position:relative;
