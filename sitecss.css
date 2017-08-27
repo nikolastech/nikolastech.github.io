@@ -26,12 +26,17 @@ height:100%
     border-width: medium;
     width:80%;
     height:25%;
+    min-height:170px;
+    max-height:250px;
     padding-left:10px;
     margin-left:10%;
     background-image:linear-gradient(#a09e9a,#f2f0ed);
     font-family: 'Exo 2', sans-serif;
     box-shadow:2px 2px 7px black;
     
+}
+.bldrvwbox:hover{
+    transform: scale(1.05)
 }
 #jwplayer{
     text-align:center;
@@ -127,11 +132,16 @@ color:white;}
     border-width: medium;
     width:80%;
     height:25%;
+    min-height:170px;
+    max-height:250px;
     padding-left:10px;
     margin-left:10%;
     background-image:linear-gradient(#a09e9a,#f2f0ed);
     font-family: 'Exo 2', sans-serif;
     box-shadow:2px 2px 7px black;
+}
+.logrvwbox:hover{
+    transform: scale(1.05)
 }
 #subtoflogbox{
     position:relative;

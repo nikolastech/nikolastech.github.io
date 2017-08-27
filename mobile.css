@@ -28,6 +28,13 @@ height:100%
     box-shadow:2px 2px 7px black;
     
 }
+#mountartclttlrevw {
+    font-family: 'Baloo Bhaina', cursive;
+    position:relative;
+    left:25%;
+    width:50%;
+    color:white;
+}
 #bldrvwtitleofbox{
     font-family:'Open Sans';
     position:relative;
@@ -56,6 +63,10 @@ height:100%
     width:180px;
     margin-top:3%;
     margin-left:4%;
+}
+#monoembed {
+    text-align:center;
+    margin-right:10%;
 }
 
 #nt{
@@ -105,8 +116,11 @@ height:100%
     border-width: medium;
     width:80%;
     height:25%;
+    min-height:160px;
+    max-height:180px;
     padding-left:10px;
     margin-left:10%;
+    margin-top:5%;
     background-image:linear-gradient(#a09e9a,#f2f0ed);
     font-family: 'Exo 2', sans-serif;
     box-shadow:2px 2px 7px black;
@@ -245,6 +259,16 @@ height:100%
 }
 a{
    text-decoration:none;
+}
+#fb{
+    margin-top:5%;
+    width:70%;
+    text-align:center;
+}
+#fbjuicer{
+    min-width:300px;
+    max-width:900px;
+    width:80%;
 }
 #juicer1{
     position:relative;
