@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css?family=Exo+2');
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaina');
+html{
+height:100%
+}
+#home,#sn,#contact,#vids,#art {
+    display:block;
+    float:left;
+    margin:5.5%;
+    color:black;
+    text-align:center;
+    font-family:'Open Sans',sans-serif;
+    font-size:370%;
+    font-weight:500;
+}
+/* Bluedio Article */
+.bldrvwbox{
+    position:relative;
+    border-style:inset;
+    border-width: medium;
+    width:80%;
+    height:10%;
+    padding-left:10px;
+    margin-left:10%;
+    margin-top:10%;
+    background-image:linear-gradient(#a09e9a,#f2f0ed);
+    font-family: 'Exo 2', sans-serif;
+    box-shadow:2px 2px 7px black;
+    
+}
+#mountartclttlrevw {
+    font-family: 'Baloo Bhaina', cursive;
+    position:relative;
+    left:25%;
+    width:50%;
+    color:white;
+}
+#bldrvwtitleofbox{
+    font-family:'Open Sans';
+    position:relative;
+    bottom:6.5em;
+    left:255px;
+    text-decoration: none;
+    color:black;
+    border-style:dotted;
+    border-width:0px;
+    width:30%;
+
+}
+
+#subtitleofbldbox{
+    position:relative;
+    bottom:7.5em;
+    left:255px;
+    text-decoration: none;
+    color:black;
+    border-style:dotted;
+    border-width:0px;
+    width:50%;
+}
+#bldimgnew{
+    height:120px;
+    width:180px;
+    margin-top:3%;
+    margin-left:4%;
+}
+#monoembed {
+    text-align:center;
+    margin-right:10%;
+}
+
+#nt{
+    width:40%;
+    margin-left:25%;
+    border-width:medium;
+    border-style:outset;
+    border-radius:50%;
+    border-color:aqua;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.37);
+}
+/* bldartcl */
+#bldimgonartcl{
+    width:25%;
+    position:relative;
+    left:35%;
+    border: medium inset skyblue;
+}
+#bldimgonartcl:hover{
+    opacity:0.6;
+}
+#titleartclofbldrvw{
+     font-family: 'Baloo Bhaina', cursive;
+    position:relative;
+    left:25%;
+    width:50%;
+    color:white;
+}
+.bldrvwartclparagraphs{
+    width:50%;
+    position:relative;
+    left:25%;
+    font-family: 'Exo 2', sans-serif;
+    color:white;
+}
+.bldrvwartclparagraphs a{
+    text-decoration:none;
+    color:skyblue;
+}
+.bldrvwartclparagraphs a:hover{
+   color:red;
+}
+/*logitech combo review article page*/
+.logrvwbox{
+    position:relative;
+    border-style:inset;
+    border-width: medium;
+    width:80%;
+    height:25%;
+    min-height:160px;
+    max-height:180px;
+    padding-left:10px;
+    margin-left:10%;
+    margin-top:5%;
+    background-image:linear-gradient(#a09e9a,#f2f0ed);
+    font-family: 'Exo 2', sans-serif;
+    box-shadow:2px 2px 7px black;
+}
+#subtoflogbox{
+    position:relative;
+    bottom:7.5em;
+    left:255px;
+    text-decoration: none;
+    color:black;
+    border-style:dotted;
+    border-width:0px;
+    width:50%;
+}
+#logrvtitofbox{
+    font-family:'Open Sans';
+    position:relative;
+    bottom:6.5em;
+    left:255px;
+    text-decoration: none;
+    color:black;
+    border-style:dotted;
+    border-width:0px;
+    width:30%;
+
+}
+#logimgnew{
+    height:120px;
+    width:180px;
+    margin-top:3%;
+    margin-left:4%;
+}
+.logrevparag a{
+    text-decoration:none;
+    color:chocolate;
+}
+.logrevparag a:hover{
+   color:yellow;
+}
+#logimgartl:hover{
+    opacity:0.6;
+}
+#logimgart{
+     font-family: 'Baloo Bhaina', cursive;
+    position:relative;
+    left:25%;
+    width:50%;
+    color:white;
+}
+#logimgart{
+    width:25%;
+    position:relative;
+    left:35%;
+    border: medium inset skyblue;
+}
+#logimgart:hover{
+    opacity:0.6;
+}
+
+#logarttit{
+     font-family: 'Baloo Bhaina', cursive;
+    position:relative;
+    left:25%;
+    width:50%;
+    color:white;
+}
+.logrevparag{
+    width:50%;
+    position:relative;
+    left:25%;
+    font-family: 'Exo 2', sans-serif;
+    color:white;
+}
+#ntimgme{
+    width:40%;
+    height:10%;
+    margin: 5% 20% 5% 25%;
+    border: 20px outset white; 
+    border-radius:10%;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.37);
+}
+.links a:hover{
+    background-color:dodgerblue;
+    color: black;
+}
+.links a:active{
+    background-color: #4CAF50;
+    color: white;
+}
+#email{
+    font-family:sans-serif;
+    font-size:250%;
+    color:deepskyblue;
+    text-align:center;
+    width:40%;
+    margin:auto;
+    margin-bottom:2%;
+    margin-left:20%;
+    text-shadow:2px 2px black;
+}
+.form{
+    text-align:center;
+}
+.links{
+ border-style:solid;
+ border-width:0px;
+ border-radius:6px;
+ border-spacing:inherit;
+ box-shadow:10px black;
+ padding:1%;
+ max-height:500px;
+ min-width:200px;
+ overflow:hidden;
+}
+#jwplayer{
+    text-align:center;
+    margin:5% 0% 5% 7%;
+    border:medium outset white;
+    border-radius:10px;
+}
+#video{
+    position:relative;
+    top:20px;
+    box-shadow:2px 2px 5px black;
+    border-style:solid;
+    border-width: medium;
+    border-radius:30px;
+    border-color:white;
+}
+#ng{
+    position:relative;
+    top:30px;
+    box-shadow:2%,2% black;
+    margin-bottom:3%;
+    border:medium solid white;
+}
+a{
+   text-decoration:none;
+}
+#fb{
+    margin-top:5%;
+    width:70%;
+    text-align:center;
+}
+#fbjuicer{
+    min-width:300px;
+    max-width:900px;
+    width:80%;
+}
+#juicer1{
+    position:relative;
+    top:20px;
+    margin-bottom:2%;
+}
+
+
+ul {
+  list-style-type: none;
+    
+}
+
+#copyright{
+    color:white;
+    text-align:center;
+    margin-bottom:1%;
+
+}
+bo/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */    
+}
+
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: black;
+    color: yellow;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: gold;
+}
+#naytart{
+    width:50%;
+    margin-left:23%;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width:70%;
+    height:30%;
+    text-align: center;
+    margin: auto;
+    margin-bottom:5%;
+    box-shadow:2px 2px 10px black;
+}
+body{
+    background-blend-mode:lighten;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background: yellow; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#62D8DE,black); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#62D8DE,black); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#62D8DE,black); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#62D8DE,black); /* Standard syntax */
+    background-attachment: fixed;
+    margin: 0;
+    height: 100%;
+}
