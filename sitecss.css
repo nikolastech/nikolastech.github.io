@@ -24,6 +24,7 @@ height:100%
     position:relative;
     border-style:inset;
     border-width: medium;
+    border-radius:20px;
     width:80%;
     height:25%;
     min-height:170px;
@@ -130,6 +131,7 @@ color:white;}
     position:relative;
     border-style:inset;
     border-width: medium;
+    border-radius:20px;
     width:80%;
     height:25%;
     min-height:170px;
